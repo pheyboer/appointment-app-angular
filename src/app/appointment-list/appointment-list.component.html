@@ -4,8 +4,14 @@
 <p>{{appointment.date}}</p> -->
 
 <div>
-  <input [(ngModel)]="newAppointmentTitle" placeholder="Appointment Description">
-  <input [(ngModel)]="newAppointmentDate" type="date" placeholder="Appointment Date">
-  <button (click)="addAppointment()" >Add</button>
+  <input
+    [(ngModel)]="newAppointmentTitle"
+    placeholder="Appointment Description"
+  />
+  <input
+    [(ngModel)]="newAppointmentDate"
+    type="date"
+    placeholder="Appointment Date"
+  />
+  <button (click)="addAppointment()">Add</button>
 </div>
-
